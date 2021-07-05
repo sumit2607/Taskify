@@ -17,7 +17,7 @@ public class Profile extends AppCompatActivity {
         mbtnsignout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Profile.this, CreateNewTask.class);
+               Intent intent = new Intent(Profile.this, MainActivity.class);
                 startActivity(intent);
             }
         });
